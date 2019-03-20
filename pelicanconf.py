@@ -10,7 +10,8 @@ PATH = 'content'
 
 TIMEZONE = 'UTC'
 
-DEFAULT_LANG = 'English'
+DEFAULT_LANG = 'En'
+THEME = 'blue-penguin'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
