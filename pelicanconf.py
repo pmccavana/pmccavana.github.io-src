@@ -12,6 +12,28 @@ TIMEZONE = 'UTC'
 
 DEFAULT_LANG = 'En'
 THEME = 'blue-penguin'
+MARKUP = ('md', 'ipynb')
+
+
+PLUGIN_PATHS = ['./plugins']
+
+PLUGINS = [
+    'pelican-ipynb.markup' ] 
+
+#PLUGINS = [
+#    'i18n_subsites',
+#    'series',
+#    'tag_cloud',
+#    'liquid_tags.youtube',
+#    'liquid_tags.notebook',
+#    'liquid_tags.include_code',
+#    'render_math',
+#    'pelican-ipynb.markup' ] 
+
+
+IGNORE_FILES = [".ipynb_checkpoints"]
+
+IPYNB_USE_METACELL = True
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
