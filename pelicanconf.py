@@ -18,7 +18,23 @@ MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = ['./plugins']
 
 PLUGINS = [
-    'pelican-ipynb.markup' ] 
+    'pelican-ipynb.markup',
+    'sitemap' ] 
+
+# Configuration for the "sitemap" plugin
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 1,
+        'indexes': 0.5,
+        'pages': 0.5,
+    },
+    'changefreqs': {
+        'articles': 'always',
+        'indexes': 'hourly',
+        'pages': 'monthly'
+    }
+}
 
 #PLUGINS = [
 #    'i18n_subsites',
