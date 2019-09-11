@@ -68,7 +68,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DISQUS_SITENAME = "pmccavana-github-io"
+DISQUS_SITENAME = 'pmccavana-github-io'
+
+GOOGLE_ANALYTICS = 'UA-146513153-1'
 
 DEFAULT_PAGINATION = 10
 
