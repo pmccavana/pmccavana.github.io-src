@@ -7,4 +7,10 @@ Slug: ../about
 Authors: PMcC
 
 
-<p> My name is Pat born and raised in <a href="https://en.wikipedia.org/wiki/Belfast">Belfast, N.Ireland</a>.</p>
+<p> My name is Pat McCavana, originating from <a href="https://en.wikipedia.org/wiki/Belfast">Belfast, N.Ireland</a>.</p>
+
+![self]({static}/images/self.png)
+
+I work in the Physics Department of St Lukes Hospital Dublin.
+
+
